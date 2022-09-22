@@ -12,7 +12,11 @@ requirements for webserver:
 
 > These things are not included in JavaScript out of the box, NodeJS has these features 
 
-NodeJS is not JavaScript, NodeJS runs JavaScript and provides features that are not available out of the box
+NodeJS is not JavaScript, NodeJS runs JavaScript and provides features that are not available out of the box.
+
+Node is a runtime environment that uses V8, written in C++ (and can be extended).
+
+V8 is the JavaScript engine, also written in C++ 
 
 Go ahed and look through [NodeJS implementation](https://github.com/nodejs/node)
 

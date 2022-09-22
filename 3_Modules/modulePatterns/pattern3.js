@@ -1,3 +1,4 @@
+/* pattern3 */
 function FnConstructor() {
   this.toLog =
     "Pattern 3 (Function Constructor in module): function FnConstructor(){}";

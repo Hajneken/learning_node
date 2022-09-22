@@ -4,3 +4,5 @@ module.exports = function () {
     "Pattern 1 (overriding empty object): module.exports = function(){}"
   );
 };
+
+/* pattern1 */

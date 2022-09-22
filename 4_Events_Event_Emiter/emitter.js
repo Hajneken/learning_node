@@ -1,3 +1,4 @@
+/* event emitter has an array of events  */
 function Emitter() {
   this.events = {
     prop: [],
@@ -5,6 +6,9 @@ function Emitter() {
 }
 
 // using on suggests an event listener
+/* we add the "on" property to it's prototype
+-> on == when the type happens
+listener is a function that is added to the array */
 Emitter.prototype.on = function (type, listener) {
   // if this property does not exist make a new arry
   this.events[type] = this.events[type] || [];

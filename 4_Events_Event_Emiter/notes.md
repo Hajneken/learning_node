@@ -32,6 +32,22 @@ Emitter.prototype.emit = function (type) {
 };
 ```
 
+## Architecture of event emitter 
+
+```mermaid 
+classDiagram
+    class Emitter{
+      +events [Event]
+      +on(type:String, listener:function)
+      +emit(String type)
+    }
+    class Event{
+      + type:String
+      + type[listener:function] : String 
+    }
+            
+```
+
 System Events are translated as Custom Event
 
 > There is no concept of event in JavaScript, it's "faked"
