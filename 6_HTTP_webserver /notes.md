@@ -1,5 +1,8 @@
 # HTTP and Nodeserver 
 
+a simple node server is written using `http` and `http.createServer()`
+to accepts requests pass it listener and chain with `.list(portNumber, 'IP')`
+
 TCP / IP 
 
 *Protocol* : set of rules that 2 parties agree to use during communication 

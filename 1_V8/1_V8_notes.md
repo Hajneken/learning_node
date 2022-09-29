@@ -9,3 +9,7 @@ ECMAScript is a core language specification (a standardized version)
 V8 can be embedded in arbitrary C++ program, which is useful for adding features that can be then used by JavaScript. 
 
 > "Make anything that you implement in C++ be available for JavaScript"
+
+template engine : program that takes a string and converts it to HTML
+
+

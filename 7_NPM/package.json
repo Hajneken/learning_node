@@ -1,0 +1,17 @@
+{
+  "name": "study-app",
+  "version": "0.0.1",
+  "description": "Tiny testing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Hynek Zemanec",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
